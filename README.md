@@ -10,7 +10,7 @@ This is an application that uses Inquirer and node.js to generate a README file 
 -Open a terminal window to the folder and input "npm -install" to acquire the Inquirer npm
 -Run "node index.js" to initiate the prompt of questions
 
-A sample video can be found by navigating to /Sample_clip.webm
+A sample video can be found by navigating to /Sample_clip.webm or in the browser [here](https://drive.google.com/file/d/1jvFfAzOBmgiPhGTdaAANe5yy1OlXr8Vq/view?usp=sharing)
 
 ## Credits
 https://shields.io/badges
