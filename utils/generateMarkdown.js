@@ -1,24 +1,25 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  const badge = '';
-  if(license != 'none') {
-    badge = '![Static Badge](https://img.shields.io/badge/No_License' + license} 
+  let badge = '';
+  if (license !== 'none') {
+    badge = '![Static Badge](https://img.shields.io/badge/No_License' + license + ')';
+  }
   return badge;
-};
+}
 
 // TODO: Create a function that returns the license link
 function renderLicenseLink(license) {
-  let licenseLink; 
+  let licenseLink;
   switch (license) {
-    case 'Apache': 
-      licenseLink = 'https://www.apache.org/licenses/LICENSE-2.0 ';
+    case 'Apache':
+      licenseLink = 'https://www.apache.org/licenses/LICENSE-2.0';
       break;
     case 'Eclipse':
-      licenseLink = 'https://www.eclipse.org/legal/epl-2.0/ ';
+      licenseLink = 'https://www.eclipse.org/legal/epl-2.0/';
       break;
     case 'MIT':
-      licenseLink = 'https://opensource.org/license/mit/ ';
+      licenseLink = 'https://opensource.org/licenses/MIT/';
       break;
     default:
       licenseLink = '';
