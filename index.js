@@ -58,7 +58,7 @@ function writeToFile(response) {
     if (err) {
       console.error(err);
     } else {
-      console.log('Successfully generated README.md!');
+      console.log('Successfully generated sample.md!');
     }
   });
 }
